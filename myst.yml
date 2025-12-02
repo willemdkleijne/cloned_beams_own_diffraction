@@ -49,11 +49,11 @@ project:
     CBED: converged beam electron diffraction
     PACBED: position averaged converged beam electron diffraction
     PED: precession electron diffraction
-  jupyter: true
-  # jupyter:
-  #   server:
-  #     url: 'http://localhost:8888'
-  #     token: '512ac78f14e1141db1fac17e8b4099c1e5bc7d589518b38c'
+  # jupyter: true
+  jupyter:
+    server:
+      url: 'http://localhost:8888'
+      token: '512ac78f14e1141db1fac17e8b4099c1e5bc7d589518b38c'
 site:
   template: book-theme
   options:
